@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalMove = 0f;
     bool jump = false;
- 
+   
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("IsJumping", false);
     }
-
+   
     void FixedUpdate ()
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
