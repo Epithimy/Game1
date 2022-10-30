@@ -2269,7 +2269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972b2015c97379648b871d302dd11b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1151848729}
 --- !u!1 &779552556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,7 +2313,12 @@ GameObject:
   - component: {fileID: 1151848729}
   - component: {fileID: 1151848728}
   - component: {fileID: 1151848726}
+<<<<<<< HEAD
   - component: {fileID: 1151848730}
+=======
+  - component: {fileID: 1151848733}
+  - component: {fileID: 1151848734}
+>>>>>>> 28a25690ee5544be5632cceb74bcfb40bdc870b4
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -2331,7 +2335,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1151848725}
   m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3de7d67cd10eada46992464091370779, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2406,7 +2410,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1151848730
+=======
+--- !u!95 &1151848733
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151848725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3097693822f99c0429eda4dea5ae5bf0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1151848734
+>>>>>>> 28a25690ee5544be5632cceb74bcfb40bdc870b4
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2415,6 +2443,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1151848725}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 4c060d63cdbe7d749b9239a73b78b38d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2440,6 +2469,13 @@ MonoBehaviour:
   _jumpBuffer: 0.1
   _jumpEndEarlyGravityModifier: 3
   _freeColliderIterations: 10
+=======
+  m_Script: {fileID: 11500000, guid: 1c4067e74bc3b1244b9409ecf8f450bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 4
+  JumpForce: 3
+>>>>>>> 28a25690ee5544be5632cceb74bcfb40bdc870b4
 --- !u!1 &1338840639
 GameObject:
   m_ObjectHideFlags: 0
