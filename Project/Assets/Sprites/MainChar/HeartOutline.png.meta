@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e144cad17be5fa6418c742f63dfe075e
+guid: 4941234a3164bd44191b16ffb57db6a7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 7, y: 5, z: 8, w: 8}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -107,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heart1_0
+      name: HeartOutline_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 17
-        height: 19
+        x: 6
+        y: 4
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01b508c3f85f1843a980e9f2da7b798
-      internalID: -1478602767
+      spriteID: 6298aec5bbe72224586c7a43a160981e
+      internalID: 843626078
       vertices: []
       indices: 
       edges: []
@@ -131,14 +131,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Heart1_0: -1478602767
+      HeartOutline_0: 843626078
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
