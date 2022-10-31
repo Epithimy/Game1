@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     public float MovementSpeed = 4;
     public float JumpForce = 10f; 
+    public bool isFalling = false;
     
     private Rigidbody2D rb2d;
     
@@ -28,15 +29,19 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2d.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
         }
-
+        
         if (Mathf.Abs(rb2d.velocity.y) > 0.001f)
+        {  
+                isFalling = true;
+              //  anim.SetBool("isFalling", true);
+        }   else
         {
-            anim.SetBool("isJumping", true);
-        } 
-        else
-        {
-            anim.SetBool("isJumping", false);
+           // anim.SetBool("isFalling", false);
+            isFalling = false;
         }
+        print(isFalling);
+        
+        
         
     
     }
