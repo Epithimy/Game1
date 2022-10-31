@@ -23,27 +23,31 @@ public class CharacterMovement : MonoBehaviour {
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
-			animator.SetBool("IsJumping", true);
+			animator.SetBool("isJumping", true);
 		}
 
 		if (Input.GetButtonDown("Crouch"))
 		{
 			crouch = true;
 		} else if (Input.GetButtonUp("Crouch"))
+		
 		{
 			crouch = false;
 		}
+		
+	
+		
 
 	}
 
 	public void OnLanding ()
 	{
-		animator.SetBool("IsJumping", false);
+		animator.SetBool("isJumping", false);
 	}
 
 	public void OnCrouching (bool isCrouching)
 	{
-		animator.SetBool("IsCrouching", isCrouching);
+		animator.SetBool("isCrouching", isCrouching);
 	}
 
 	void FixedUpdate ()
@@ -51,5 +55,6 @@ public class CharacterMovement : MonoBehaviour {
 		// Move our character
 		controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
 		jump = false;
+		
 	}
 }
