@@ -57,4 +57,9 @@ public class CharacterMovement : MonoBehaviour {
 		jump = false;
 		
 	}
+	void OnTriggerEnter(Collider other) {
+		if (other.gameObject.CompareTag("Water")) {
+			Debug.Log("tommy is gay");
+ 		}
+	}
 }

@@ -62953,7 +62953,7 @@ SpriteRenderer:
   m_Size: {x: 1.5, y: 1.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2102511195
@@ -62986,7 +62986,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2102511198}
-  animator: {fileID: 2102511199}
   runSpeed: 40
 --- !u!114 &2102511198
 MonoBehaviour:
@@ -63010,6 +63009,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 1135820174}
   m_CeilingCheck: {fileID: 2099624819}
   m_CrouchDisableCollider: {fileID: 2102511200}
+  dragAmount: 4
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
